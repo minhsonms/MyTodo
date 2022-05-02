@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/layout/Header";
 import Todos from "./Todos";
 import AddTodo from "./AddTodo";
+//import Footer from "./layout/Footer";
+import Footer from "../store/containers/Footer";
 //import uuid from "uuid";
 import axios from "axios";
 
@@ -112,6 +114,7 @@ function TodoApp() {
         handleChange={handleCheckboxChange}
         deleteTodo={deleteTodo}
       />
+      <Footer/>
     </div>
   );
   // }

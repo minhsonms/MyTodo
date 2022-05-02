@@ -38,7 +38,7 @@ function AddTodo(props) {
         value={title}
         onChange={onInputChange}
       />
-      <input type="submit" value="Submit" className="inputsubmit" />
+      <input type="submit" value="Submit" className="input-submit" />
     </form>
   );
 }
